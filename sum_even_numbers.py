@@ -55,3 +55,20 @@ print(f"THe sum of odd numbers: {sum_of_odd}")
 
 
 
+x=[1,2,5,2,5,4,7,8,9,56,8]
+sum_of_odd=0
+for i in x:
+	if i%2 !=0:
+		sum_of_odd +=i
+		print(f"The sum of odd numbers: {sum_of_odd}")
+
+
+
+x=[1,2,5,2,5,4,7,8,9,56,8]
+product_of_even=1
+for i in x:
+	if i%2 ==0:
+		product_of_even *=i
+		print(f"The product of even numbers: {product_of_even}")
+
+

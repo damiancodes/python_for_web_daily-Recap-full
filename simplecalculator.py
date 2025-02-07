@@ -19,3 +19,35 @@ elif operator == "/":
 else:
     result = "invalid operator"
 print(f"Your result is: {result}")
+
+
+
+
+
+num1 = int(input("Enter the first number"))
+num2 = int(input("Enter the second number"))
+
+operator = input("Enter the operator (+,/-*):")
+
+if operator == "+":
+    result = num2 + num1
+elif operator == "-":
+    result = num2 - num1
+elif operator == "/":
+    result = num2 / num1
+
+print(f"The results is: {result} ")
+
+
+x=int(input("Enter the first number:"))
+y=int(input("Enter the second number:"))
+
+operator = input("Enter the operator:(+,-,/,*)")
+if operator == "+":
+    result= x+y
+elif operator == "*":
+    result= x*y
+else:
+    result= x//y
+
+print(f"The result is: {result}")
