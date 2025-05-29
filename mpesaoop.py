@@ -57,7 +57,7 @@ class PaymentSystem(ABC):
 
 class MpesaPaymentSystem(PaymentSystem):
       def process_payment(self,amount):
-         print(f"Processing Mpesa payment of {amount} ")
+         print(f"Processing Mpesa payments of {amount} ")
 
 
 #example usage

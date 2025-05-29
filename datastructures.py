@@ -52,6 +52,7 @@ print(my_set)
 #dictionary data structures
 #imutable
 student={'Name': "John", 'Age': 18, "Gender": "Male" ,"school": "Emobilis"}
+
 print(student)
 print(student['Name'])
 print(student['Age'])
