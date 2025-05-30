@@ -97,7 +97,7 @@ print("Column-wise Mean:", np.mean(data, axis=0))       # 3. Mean
 print("Column-wise Median:", np.median(data, axis=0))   # 4. Median
 print("Standard Deviation:", np.std(data, axis=0))      # 5. Standard deviation
 print("Minimum values:", np.min(data, axis=0))          # 6. Min
-print("Maximum values:", np.max(data, axis=0))          # 7. Max
+print("Maximum values:", np.max(data, axis=0))
 
 # Analyzing specific columns (example: column 1 = salary)
 print("75th Percentile of column 1:", np.percentile(data[:, 1], 75))  # 8. Percentile
